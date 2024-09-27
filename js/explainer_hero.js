@@ -8,7 +8,7 @@ gsap
       start: "top top", // Start animation when the hero section hits the top of the viewport
       end: "bottom top", // End after 100% of the viewport height has been scrolled
       scrub: true, // Sync the animation with the scroll position
-      pin: true, // Pin the hero section during the scroll-triggered animation
+      pin: false, // Pin the hero section during the scroll-triggered animation
     },
   })
   // Scale and fade out background
